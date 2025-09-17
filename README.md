@@ -52,11 +52,11 @@ ollama pull starcoder2:3b
 ```bash
 ollama pull llama3:8b
 ```
-
+then
 ```bash
 ollama pull mistral:7b
 ```
-
+then
 ```bash
 ollama pull tinyllama
 ```
@@ -82,7 +82,7 @@ pip install flask flask-cors ollama requests faiss-cpu
 ```bash
 pip install pymupdf
 ```
-
+then
 ```bash
 pip install PyPDF2
 ```
