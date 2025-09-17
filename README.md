@@ -108,8 +108,8 @@ Follow these steps carefully to set up and run the project. You will need to ope
 ### **Step 2: Place the Project Folder**
 
 1.  Extract or clone this project repository.
-2.  Copy the entire project folder (e.g., `Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Assistance`) into your XAMPP's `htdocs` directory.
-    - **Default Path:** `C:\xampp\htdocs\Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Assistance\`
+2.  Copy the entire project folder (e.g., `Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Asst`) into your XAMPP's `htdocs` directory.
+    - **Default Path:** `C:\xampp\htdocs\Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Asst\`
 
 ### **Step 3: Start the Ollama Service (CMD Window 1)**
 
@@ -137,7 +137,7 @@ Then try starting ollama server again:
 1.  Navigate to the `RAG` folder inside your project directory in command prompt:
 
     ```bash
-    cd C:\xampp\htdocs\Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Assistance\RAG
+    cd C:\xampp\htdocs\Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Asst\RAG
     ```
 
 2.  Run the Python backend server from this location:
@@ -151,14 +151,14 @@ Then try starting ollama server again:
 ### **Step 5: Prepare Resume Data**
 
 1.  **The `data` folder for resumes is already inside the `RAG` folder.**
-2.  Place your PDF or DOCX resume files inside the `C:\xampp\htdocs\Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Assistance\RAG\data\` folder.
+2.  Place your PDF or DOCX resume files inside the `C:\xampp\htdocs\Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Asst\RAG\data\` folder.
 3.  You can click the **"Reload Resumes"** button on the RAG web page to process them.
 
 ### **Step 6: Access the Web Application**
 
 1.  Open your web browser (Chrome, Firefox, etc.).
-2.  Go to: **`http://localhost/Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Assistance/`**
-    - (Replace `Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Assistance` with the exact name of your project folder if changed).
+2.  Go to: **`http://localhost/Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Asst/`**
+    - (Replace `Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Asst` with the exact name of your project folder if changed).
 
 ---
 
@@ -181,7 +181,7 @@ Then try starting ollama server again:
 
 - **RAG Agent doesn't find resumes**
 
-  - Place your resume files inside `Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Assistance/RAG/data/`.
+  - Place your resume files inside `Enhancing_Recruitment_Processes_with_RAG-Based_Shortlisting_and_Offline_AI_Software_Development_Asst/RAG/data/`.
   - Click the **"Reload Resumes"** button on the RAG page.
 
 - **Port 5000 already in use?**
